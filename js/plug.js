@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
-    var hi = $('.head button.new');
-    var h = $('.head button.pop');
-    var v = $('.head button.feat');
+    var hi = $('button.new');
+    var h = $('button.pop');
+    var v = $('button.feat');
 
     $(hi).click(function () {
 
