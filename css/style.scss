@@ -1,0 +1,18 @@
+$mainfont: 'Lato', sans-serif;
+$secondfont: 'Montserrat', sans-serif;
+$miancolor:#3738c9;
+$secondcolor:#f3f4fa;
+@mixin boxshadow($i,$j){
+    -webkit-box-shadow:$i $i $j #888;
+    -moz-box-shadow:$i $i $j #888;
+    -o-box-shadow:$i $i $j #888;
+    box-shadow:$i $i $j #888;
+
+}
+body{
+    font-family: $mainfont;
+    margin: 0;
+}
+.social{
+    @include boxshadow(2,20);
+}
